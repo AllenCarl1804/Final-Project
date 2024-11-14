@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="author" content="Gabilo, Carl Allen">
+<meta name="description" content="Portfolio-Final-Project">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="me.jpg">
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="nav-links"><a href="#home">Portfolio in Web Development</a></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section id="home" class="home with-background">
+        <div class="overlay"></div>
+        <div class="content">
+        <img src="me.jpg" alt="me">
+        <h1>I'm <span>Gabilo, Carl Allen</span></h1>
+        <p><span></span></p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/carlallengabilo18/" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/AllenCarl1804" class="social-btn github"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/gabilocarlallen/?hl=en" class="social-btn instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@carlkskskskks" class="social-btn tiktok"><i class="fab fa-tiktok"></i></a>
+        </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Carl Allen Gabilo, a third-year student at Cainta Catholic College (CCC) pursuing a Bachelor of Science in Computer Science (BSCS). In the fascinating discipline of computer science, we may develop technologies, solve issues, and improve people's lives. There are countless opportunities to create something important on this road of continuous learning and exploration. Anyone working in this profession should never lose curiosity or perseverance since every obstacle you conquer will get you one step closer to your goal.</p>
+    </section>
+
+    <section id="image-slider" class="image-slider">
+        <h2>Projects</h2>
+        <div class="slider-container">
+            <div class="slide fade">
+                <img src="img1.jpg" alt="Image 1">
+            </div>
+            <div class="slide fade">
+                <img src="img2.jpg" alt="Image 2">
+            </div>
+            <div class="slide fade">
+                <img src="img3.JPG" alt="Image 3">
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+    
+    
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>- HTML</p>
+        <p>- CSS</p>
+        <p>- JavaScript</p>
+        <p>- Python</p>
+        <p>- C/C++</p>
+        <p>- Java</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <button id="contact-btn">Contact Me</button>
+
+        
+        <!-- Hidden Contact Form -->
+        <div id="contact-form-container" class="hidden">
+            <div class="text">Message me</div>
+            <form action="mailto:allenpogi618@gmail.com" method="POST" enctype="text/plain">
+                <div class="fields">
+                    <div class="field name">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="field email">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="field textarea">
+                    <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                </div>
+                <div class="button-area">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>© 2024| Carl Allen Gabilo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
